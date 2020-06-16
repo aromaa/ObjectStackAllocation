@@ -30,4 +30,8 @@ You can also pass arguments by using.
 StackAlloc<SimpleDataObject>.Alloc(stackalloc byte[StackAlloc<SimpleDataObject>.AllocAmount], 0L);
 ```
 
+## Building
+
+The project targets .NET 5 and requires custom build of Roslyn which supports the upcoming C# 9 function pointers!
+
 ## Have fun hacking!
